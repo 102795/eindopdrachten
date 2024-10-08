@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ziekenhuisapp.js"></script>
+</head>
+<body>
+<h1>Ziekenhuis app</h1>
+
+<h4>Vul alstublieft uw naam, leeftijd in en vink de klachten aan waar u last van heeft. <br>Een * betekent verplicht veld!</h4>
+
+<forms>
+
+    <!--Basis gegevens-->
+    <label for="naam">First name: *</label><br>
+    <input type="text" id="nameinput"><br>
+
+    <label for="naam">Leeftijd: *</label><br>
+    <input type="number" id="leeftijdinput"><br>
+
+    <!--Klachten van de gebruiker opvragen-->
+    <h2>Welke klachten heb je?</h2><br>
+
+    <label for="hoofdpijn">Hoofdpijn</label>
+    <input id="hoofdpijn" type="checkbox"><br>
+
+    <label for="Misselijkheid">Misselijkheid</label>
+    <input id="misselijk" type="checkbox"><br>
+
+    <label for="Duizelig">Duizeligheid</label>
+    <input id="duizelig" type="checkbox"><br>
+
+    <label for="Keelpijn">Keelpijn</label>
+    <input id="keelpijn" type="checkbox"><br>
+
+    <label for="Hoesten">Hoesten</label>
+    <input id="hoesten" type="checkbox"><br>
+
+    <!--Knop om te kijken hoe erg de klachten zijn-->
+    <button id="knop" onclick="ernstigheid()">Hoe gaat het met mij?</button>
+
+
+</forms>
+<div id="div"></div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+body{
+    background-image: url("/images/13697-simple-gradient.jpg");
+    background-size: cover;
+    color:aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.waarschuwing{
+    color:red
+}
+.gezond{
+    color:lime
+}
