@@ -1,15 +1,54 @@
-h1{
+h1
+{
     text-align: center;
 }
-body{
-    background-image: url("/Eindopdracht1/images/13697-simple-gradient.jpg");
+
+body
+{
+    background-image: url("./images/simple-background-1920x1080.jpg");
+    background-color: black;
     background-size: cover;
     color:aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
-.waarschuwing{
-    color:red
+
+#div
+{
+    position: relative;
+    top: 35px;
 }
-.gezond{
-    color:lime
+
+.waarschuwing
+{
+    color:red;
+}
+
+.gezond
+{
+    color:lime;
+}
+
+#knop
+{
+    background-color: gray;
+    border: 3px;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#knop:hover
+{
+    color: #FF69B4;
+}
+
+#h2
+{
+    position: relative;
+    top: 10px;
 }
